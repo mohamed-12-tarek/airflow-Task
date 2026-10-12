@@ -1,0 +1,11 @@
+[project]
+name = "task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=3.3.2",
+    "pyodbc>=5.3.0",
+    "sqlalchemy>=2.1.4",
+]
